@@ -20,10 +20,14 @@ namespace MiniRegex
 					patternIndex++;
 				}
 
+				// if either index goes past their respective array length, then we can assume a match
+				if ((inputIndex > inputChars.Length - 1 || patternIndex > patternChars.Length - 1)) return true;
+
 				if (!inputChars[inputIndex].Equals(patternChars[patternIndex])) return false;
 				inputIndex++;
 			}
 
+			// if we made it here it means there was no mismatch to this point
 			return true;
 		}
 	}

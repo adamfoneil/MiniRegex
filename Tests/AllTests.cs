@@ -22,5 +22,17 @@ namespace Tests
 		{
 			Assert.IsFalse(MiniRegex.MiniRegex.IsMatch("this", "that"));
 		}
+
+		[TestMethod]
+		public void PatternEndsWithNumberMatch()
+		{
+			Assert.IsTrue(MiniRegex.MiniRegex.IsMatch("th2", "this"));
+		}
+
+		[TestMethod]
+		public void PatternTooLongCannotMatch()
+		{
+			Assert.IsFalse(MiniRegex.MiniRegex.IsMatch("anotherpattern", "a"));
+		}
 	}
 }
