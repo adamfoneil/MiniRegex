@@ -10,3 +10,9 @@ During the interview, I couldn't do it. We were working in [CoderPad.io](https:/
 
 - Implementation: [MiniRegex.cs](https://github.com/adamosoftware/MiniRegex/blob/master/MiniRegex/MiniRegex.cs)
 - Tests: [AllTests.cs](https://github.com/adamosoftware/MiniRegex/blob/master/Tests/AllTests.cs)
+
+I'm not all that upset since this was not a job I was actively seeking. I suspected it was a very competitive position, and probably would've paid really well. And I could've worked from home.
+
+I am still a bit flustered that I couldn't do something so relatively simple on the spot, however. I am put in mind of Daniel Kahneman's provactive book *Thinking Fast and Slow* which goes into great detail about the two very different modes of thought humans use. I can't remember if it was in that book or another that there's a story of a famous tennis player who did badly at Wimbledon or some other big tournament because she fell into "slow thinking mode" during a match. She got very flustered and was beaten badly.
+
+I can say that one important factor in my case was not working in a full IDE. CoderPad does some neat things, and is a great interviewing tool generally, but the lack of the lack of full IntelliSense made me nervous. It was not very necessary to the problem at hand, since it didn't require any deep class library recollection. But I think I felt like Dumbo without his magic feature. I am used to IntelliSense popups being a reassuring presence while coding, even when they aren't necessary. (I found them problematic while trying to learn Linq years ago -- because of the lambda and Func<>s you come across in Linq -- IntelliSense tips for Linq were just Greek to me. It meek a very long time to get comfortable with Linq, and IntelliSense was no help.)
